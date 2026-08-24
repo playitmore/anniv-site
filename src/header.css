@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap');
+
+.header{
+    height: clamp(60px, 7vw, 70px);
+    padding: 0 clamp(15px, 4vw, 40px);
+    background-color: #FFFFFF;
+
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    
+    align-items: center;
+}
+
+.header h1{
+    margin: 0;
+    font-family: "Brush Script MT", cursive;
+    color: #6B2737;
+    font-size: clamp(36px, 4vw, 48px);
+}
+
+.header nav{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+    gap: 15px;
+    align-items: center;
+}
+
+.header .font{
+    font-family: "Brush Script MT", cursive;
+    font-size: clamp(20px, 2vw, 32px);
+    color: #6B2737;
+}
